@@ -1,0 +1,20 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  },
+  "extends": [ "plugin:@typescript-eslint/recommended" ],
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/explicit-funtion-return-type": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "semi": "error",
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "prefer-template": "error"
+  }
+}
